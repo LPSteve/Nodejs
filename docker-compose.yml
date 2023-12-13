@@ -3,7 +3,7 @@ services:
   snake:
     image: lopdave/nodejs:latest
     environment:
-      - "PORT: 3700"
+      - "PORT:3700"
     ports:
       - "80:3700"
     volumes:
